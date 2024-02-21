@@ -59,6 +59,7 @@ const handleUpdate = (id) => {
 }
 
   return (
+    
     <div className=' bg-red-200 h-screen w-full p-6'>
         <div>
             <h1 className=' text-3xl mb-6'>Form Table</h1>
@@ -113,7 +114,8 @@ const handleUpdate = (id) => {
                     </>}
 
                     </tr>      
-                ))}
+                ))
+                }
             </tbody>
         </table>
 
